@@ -12,13 +12,13 @@
 
 	<script>
 		function change1() {
-  			document.getElementById("pic").src = "statc/mountain.jpg";
+  			document.getElementById("pic").src = "static/mountain.jpg";
   			document.getElementById("h2text").innerText = "靜宜資管";
 		}
 
 		function change2() {
-  			document.getElementById("pic").src = "statc/cliff.jpg";
-  			document.getElementById("h2text").innerText = "Kai-xiu Chenu";
+  			document.getElementById("pic").src = "static/cliff.jpg";
+  			document.getElementById("h2text").innerText = "Kai-xiu Chen";
 		}
 	</script>
 
@@ -31,14 +31,14 @@
     <table width="70%">
 		<tr>
 			<td>
-				<img src="statc/cliff.jpg" width="110%"id="pic" onmouseover="change1()" onmouseout="change2()"></img>
+				<img src="static/cliff.jpg" width="110%"id="pic" onmouseover="change1()" onmouseout="change2()"></img>
 			</td>
 
 			<td>
 
 
     <h1>陳楷修<h1>
-    <h2>wu guan jie<h2>
+    <h2>Kai-xiu Chen<h2>
 
     </td>
 		</tr>
@@ -52,9 +52,7 @@
 
     
     個人網頁<br>
-    fb:https:<a href="//www.facebook.com/">https://www.facebook.com/</a><br>
-    Tel:<br>
-    E-mail: <a href="mailto:wu0952686160@gmail.com">tcyang@pu.edu.tw</a><br>
+    
 </body>
 
 
@@ -65,7 +63,7 @@
 
     大象席地而坐電影配樂<br>
 	<audio controls>
-		<source src="statc/elephant.mp3" type="audio/mP3">
+		<source src="static/elephant.mp3" type="audio/mP3">
 	</audio><br>
 
 	</td>
